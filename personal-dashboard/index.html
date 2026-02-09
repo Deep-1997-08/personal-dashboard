@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>My Personal Dashboard</h1>
+    <button id="refresh-btn">Refresh</button>
+  </header>
+
+  <main>
+    <section id="clock" class="card">
+      <h2>Clock</h2>
+      <p id="clock-time"></p>
+      <p id="clock-date"></p>
+    </section>
+
+    <section id="weather" class="card">
+      <h2>Weather</h2>
+      <p id="weather-temp">Loading weather...</p>
+      <p id="weather-desc"></p>
+    </section>
+
+    <section id="quote" class="card">
+      <h2>Quote of the Day</h2>
+      <p id="quote-text">Loading quote...</p>
+      <span id="quote-author"></span>
+    </section>
+  </main>
+
+  <footer>
+    <p>Personal Dashboard &copy; 2026</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
